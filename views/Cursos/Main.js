@@ -58,6 +58,7 @@ export default function Main({navigation})
             <Tab.Screen
                 name="Postar"
                 component={Cursos}
+                initialParams={user}
                 options={{
                     tabBarIcon: ({ color }) => (
                         <AntDesign name="addfile" size={24} color="#c7d6d5" />
