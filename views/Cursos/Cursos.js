@@ -3,7 +3,7 @@ import {css} from "../../assets/css/Css";
 import { Text, TouchableOpacity, View } from "react-native";
 import Curso from "../../assets/components/Curso";
 
-export default function Cursos({navigation})
+export default function Cursos({navigation, route})
 {
     const [nome, setNome] = useState('')
 

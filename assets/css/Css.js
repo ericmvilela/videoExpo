@@ -152,6 +152,68 @@ const css = StyleSheet.create({
         display: text,
         alignSelf: 'center'
     }),
+    profilePage: {
+        justifyContent: 'space-between',
+        paddingVertical: Constants.statusBarHeight,
+        paddingHorizontal: 0,
+    },
+    profileHeader: {
+        backgroundColor: '#C20114',
+        width: '100%',
+        alignItems: "center",
+        justifyContent: 'space-evenly',
+        padding: 20,
+        borderRadius: 10,
+        height: '50%',
+    },
+    profilePicture: {
+        resizeMode: 'cover',
+        width: 190,
+        height: 190,
+        borderRadius: 190 / 2,
+        backgroundColor: '#ECEBF3',
+        borderWidth: 1,
+        borderColor: '#0C120C'
+    },
+    profileButtons: {
+        width: '100%',
+        height: '50%',
+        justifyContent: "center",
+        alignItems: 'center'
+    },
+    profileName: {
+        fontSize: 20,
+        color: '#ECEBF3',
+        fontWeight: 'bold',
+        paddingVertical: 10
+    },
+    profileEditButton: {
+        backgroundColor: '#ECEBF3',
+        padding: 5,
+        paddingHorizontal: 10,
+        borderRadius: 10
+    },
+    profileEditButtonText: {
+        fontSize: 16,
+        color: '#0C120C',
+        fontWeight: 'bold'
+    },
+    profileButton: {
+        backgroundColor: '#ECEBF3',
+        padding: 12,
+        marginVertical: 10,
+        width: '70%',
+        borderRadius: 15
+    },
+    profileButtonText: {
+        color: '#0C120C',
+        fontWeight: 'bold',
+        fontSize: 20,
+        textAlign: 'center'
+    },
+    profileButtonLogout: {
+        backgroundColor: '#C20114'
+    }
 })
 
 export {css}
